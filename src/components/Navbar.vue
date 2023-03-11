@@ -9,7 +9,7 @@
         
         <router-link to="/" class="link d-none d-md-inline mx-4">Join</router-link>
         <router-link to="/" class="link d-none d-md-inline mx-4">Host</router-link>
-        <router-link to="/signup" class="link d-none d-md-inline mx-4">Sign in</router-link>
+        <router-link to="/login" class="link d-none d-md-inline mx-4">Sign in</router-link>
         <router-link to="/signup" class="link">
         <v-btn class="text-none bg-primary d-none d-md-inline mx-4 nav-btn" flat>Create account</v-btn>
         </router-link>
