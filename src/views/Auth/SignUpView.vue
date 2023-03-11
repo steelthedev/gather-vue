@@ -32,8 +32,8 @@
                         </v-col>
                             
 
-                        <v-col lg="12" cols="12" >
-                            <small class="mb-3 text-center">By creating an account, you agree to all terms and conditions of the company.</small>
+                        <v-col lg="12" class="text-center" cols="12" >
+                            <small class="mb-3">By creating an account, you agree to all terms and conditions of the company.</small>
                             <div class="form-group text-center">
                                 <v-btn class="l-btn form-control mb-3 text-none pa-7 align-content-center mt-3" flat>Create Account</v-btn>
                                 <small class="text-center"><router-link to="/signup"  class=""> Already have an account? </router-link></small>
