@@ -14,21 +14,21 @@
                        
 
 
-                        <v-col lg="12">
+                        <v-col lg="12" cols="12" >
                             <div class="form-group">
                                 <v-text-field  placeholder="Email Address" class="text-white" variant="none"></v-text-field>
                             </div>
                         </v-col>
 
 
-                        <v-col lg="12">
+                        <v-col lg="12" cols="12" >
                             <div class="form-group">
                                 <v-text-field  placeholder="Password" class="text-white" variant="none" type="password"></v-text-field>
                             </div>
                         </v-col>
                             
 
-                        <v-col lg="12">
+                        <v-col lg="12" cols="12"  >
                            
                                 <v-btn class="l-btn form-control  text-none pa-7 align-content-center" flat>Login</v-btn>
                               
