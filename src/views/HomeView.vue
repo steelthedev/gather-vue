@@ -16,7 +16,7 @@
             <div class="form">
               <v-text-field placeholder="Enter your email" class="custom-class" variant="none" name="email"></v-text-field>
             </div>
-            <router-link to="/about" class="link">
+            <router-link to="/signup" class="link">
               <v-btn class="hero-btn text-none pa-7 align-content-center text-white" flat>Create account</v-btn>
             </router-link>
           </div>
