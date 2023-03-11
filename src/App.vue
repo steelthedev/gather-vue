@@ -183,12 +183,12 @@ small a{
 }
 
 
-.navbar-bran{
+.navbar-brand{
   margin-left:0 !important;
 }
 
 .navbar-brand img{
-  width: 100px !important;
+  width: 200px !important;
 }
 
 
