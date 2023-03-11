@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <section class="hero" style="background-image:url('../assets/img/landing.png') ;">
+  <section class="hero">
 
     <v-container fluid="">
       <v-row justify="center" align-content="center">
@@ -46,6 +46,7 @@ export default{
     background-position: center center;
     background-size: cover;
     height: 100vh;
+    background-image:url('../assets/img/landing.png') ;
 
 }
 

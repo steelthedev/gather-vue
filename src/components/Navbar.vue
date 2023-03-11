@@ -1,15 +1,15 @@
 <template>
-  <v-toolbar  class="navbar" color="dark">
+  <v-toolbar  class="pa-3 bg-white pa-md-8" color="dark">
     <div class="navbar-brand">
-        <img src="../assets/img/gather-3.svg" width="80%" alt="">
+        <img src="../assets/img/gather-3.svg" alt="">
     </div>
     <v-spacer></v-spacer>
-    <div class="nav-links ma-16">
+    <div class="nav-links ma-16 d-none d-md-inline ">
       
         
         <router-link to="/" class="link d-none d-md-inline mx-4">Join</router-link>
         <router-link to="/" class="link d-none d-md-inline mx-4">Host</router-link>
-        <router-link to="/" class="link d-none d-md-inline mx-4">Sign in</router-link>
+        <router-link to="/signup" class="link d-none d-md-inline mx-4">Sign in</router-link>
         <v-btn class="text-none bg-primary d-none d-md-inline mx-4 nav-btn" flat>Create account</v-btn>
         
      
@@ -19,7 +19,7 @@
     <v-menu>
       <template v-slot:activator="{ props}">
        
-        <v-btn class="navbar-toggler d-md-none d-sm-flex" v-bind="props" flat>
+        <v-btn class="navbar-toggler d-md-none d-sm-flex mx-0" v-bind="props" flat>
             <v-icon icon="fa-solid fa-bars-staggered"></v-icon>
         </v-btn>
 
@@ -52,7 +52,7 @@ export default{
         const links = ref([
             {to:"/", title:"Join"},
             {to:"/", title:"Host"},
-            {to:"/", title:"Sign in"},
+            {to:"/login", title:"Sign in"},
         ])
 
         return {drawer,mergeProps,links}
@@ -72,13 +72,9 @@ export default{
 }
 
 
-.navbar-brand{
-    margin-left: 45px;
-}
 
-.navbar-nav{
-    margin: 0px 50px;
-}
+
+
 .nav-link, .nav-btn{
     color: #000000;
     margin: 7px 10px;
