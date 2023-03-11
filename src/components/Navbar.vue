@@ -10,8 +10,9 @@
         <router-link to="/" class="link d-none d-md-inline mx-4">Join</router-link>
         <router-link to="/" class="link d-none d-md-inline mx-4">Host</router-link>
         <router-link to="/signup" class="link d-none d-md-inline mx-4">Sign in</router-link>
+        <router-link to="/signup" class="link">
         <v-btn class="text-none bg-primary d-none d-md-inline mx-4 nav-btn" flat>Create account</v-btn>
-        
+        </router-link>
      
     </div>
     
@@ -33,8 +34,9 @@
         <router-link :to="item.to" class="link">{{item.title}}</router-link>
         </v-list-item>
         <v-list-item>
+            <router-link to="/signup" class="link">
             <v-btn class="text-none bg-primary nav-btn" flat>Create account</v-btn>
-        
+        </router-link>
         </v-list-item>
       </v-list>
     </v-menu>
