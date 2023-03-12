@@ -1,0 +1,156 @@
+
+.video-streams{
+    height: 85vh;
+    width: 100%;
+}
+
+.video-container{
+    border: 1px solid #920000;
+    border-radius: 5px;
+    max-height: 300px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+
+.video-player{
+    height: 150px;
+    width: 150px ;
+    border-radius: 50%;
+    background: #920000;
+}
+
+.video-player img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+#icon-wrapper .fa{
+    cursor: pointer;
+    padding: 20px;
+    border-radius:5px;
+    color:#000;
+    background: #c4c4c4;
+    margin:0;
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+
+#leave-btn{
+    background: red !important;
+    color: #fff !important;
+}
+
+
+.chat-container{
+    height: 90vh;
+    border: 1px solid #920000;
+    width: 90%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.chat-title h6{
+    color: #920000;
+}
+
+.chat-title p{
+    font-size: 13px;
+}
+
+.message-container{
+    padding: 0 10px;
+}
+
+
+
+.message-container img{
+    width: 17%;
+    margin: 0 3px;
+}
+
+.message{
+    padding: 5px 10px;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(73, 72, 72, 0.2);
+    border-radius: 100px;
+    align-items: center;
+}
+
+.message span{
+    margin: 0 auto;
+}
+
+
+.chat-input{
+    padding: 10px;
+    width: 100%;
+    bottom: 1px;
+    position: absolute;
+    
+}
+
+.chat-input input{
+    width:100%;
+    padding: 8px;
+    border: 2px solid #920000;
+    border-radius: 20px;
+}
+
+.chat-input .fa-send{
+    margin:auto 10px;
+    font-size: 20px;
+    color: #920000;
+}
+
+
+
+@media screen and (max-width: 476px) {
+    #icon-wrapper .fa{
+        padding: 10px !important;
+        margin:0;
+        font-size:17px !important;
+
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    #icon-wrapper .fa{
+        cursor: pointer;
+        padding: 20px;
+        border-radius:5px;
+        color:#000;
+        background: #c4c4c4;
+        margin:0;
+        font-size: 15px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+
+.video-container{
+    border: 1px solid #920000;
+    border-radius: 5px;
+    max-height: 300px;
+    width: 100%;
+    padding: 30px;
+
+}
+    
+
+.video-streams{
+    height: 85vh;
+    width: 100%;
+    padding: 30px;
+}
+    
+    
+}

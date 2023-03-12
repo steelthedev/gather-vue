@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import axios from 'axios'
 
+
 loadFonts()
 axios.defaults.baseURL = "http://127.0.0.1:8000/"
 createApp(App).use(store)
